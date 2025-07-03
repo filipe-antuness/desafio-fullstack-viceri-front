@@ -23,7 +23,6 @@ export class Listar implements OnInit {
     this.heroisService.listarHerois().subscribe((data: Heroi[]) => {
       this.herois = data;
       this.dataSource.data = this.herois;
-      console.log(this.herois);
     });
   }
 }
