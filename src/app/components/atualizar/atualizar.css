@@ -1,4 +1,51 @@
-form {
+/* Container do formulário */
+.buscar > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* Estilo do input */
+.buscar input[type="number"] {
+  width: 200px; 
+  min-width: 0;
+  max-width: 100%;
+  padding: 8px 12px;
+  border: 1.5px solid #d31d1d;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.buscar input[type="number"]:focus {
+  border-color: #a31515;
+}
+
+/* Estilo do botão */
+.buscar button[type="submit"] {
+  background: #d31d1d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.buscar button[type="submit"]:hover:enabled {
+  background: #a31515;
+}
+
+.buscar button[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.atualizar {
   max-width: 400px;
   margin: 32px auto;
   padding: 24px 32px;
@@ -10,7 +57,7 @@ form {
   gap: 18px;
 }
 
-form div {
+.atualizar div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,13 +69,13 @@ h2 {
   color: #d31d1d;
 }
 
-label {
+.atualizar label {
   font-weight: 500;
   margin-bottom: 6px;
   color: #d31d1d;
 }
 
-input[type="text"],
+.atualizar input[type="text"],
 input[type="date"],
 input[type="number"] {
   width: 100%;
@@ -39,12 +86,12 @@ input[type="number"] {
   transition: border-color 0.2s;
 }
 
-input:focus {
+.atualizar input:focus {
   border-color: #d31d1d;
   outline: none;
 }
 
-button[type="submit"] {
+.atualizar button[type="submit"] {
   background: #d31d1d;
   color: #fff;
   border: none;
@@ -56,11 +103,11 @@ button[type="submit"] {
   transition: background 0.2s;
 }
 
-button[type="submit"]:hover:enabled {
+.atualizar button[type="submit"]:hover:enabled {
   background: #a31515;
 }
 
-button[disabled] {
+.atualizar button[disabled] {
   background: #ccc;
   cursor: not-allowed;
 }

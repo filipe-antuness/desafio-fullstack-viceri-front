@@ -1,0 +1,61 @@
+/* Estilo geral da tabela */
+table {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+/* Header da tabela */
+::ng-deep .mat-table thead .mat-header-row,
+::ng-deep .mat-table thead .mat-header-cell {
+  background-color: #d31d1d !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-bottom: 2px solid #b71c1c;
+}
+
+::ng-deep .mat-header-cell {
+  background-color: #d31d1d !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-bottom: 2px solid #b71c1c;
+}
+
+::ng-deep .mat-table .mat-header-row .mat-header-cell {
+  background-color: #d31d1d !important;
+  color: #fff !important;
+}
+
+/* Linhas da tabela */
+.mat-row {
+  transition: background 0.2s;
+}
+
+.mat-row:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.mat-cell {
+  padding: 12px 8px;
+  font-size: 1em;
+}
+
+/* Efeito hover */
+.mat-row:hover {
+  background: #ffeaea;
+}
+
+/* Borda inferior nas células do header */
+.mat-header-cell {
+  border-bottom: 2px solid #b71c1c;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #d31d1d;
+}

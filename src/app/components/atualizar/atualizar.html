@@ -1,5 +1,13 @@
-<h2>Cadastrar Herói</h2>
-<form [formGroup]="formHeroi" (ngSubmit)="onSubmit()">
+<h2>Atualizar Herói</h2>
+<form class="buscar" [formGroup]="formBuscar" (ngSubmit)="onSubmitBuscar()" *ngIf="!heroiEncontrado">
+    <div>
+        <label for="id">Digite o ID do Herói:</label>
+        <input id="id" formControlName="id" type="number" required />
+        <button type="submit" [disabled]="formBuscar.invalid">Buscar</button>
+    </div>
+  </form>
+
+  <form class="atualizar" [formGroup]="formHeroi" (ngSubmit)="onSubmitAtualizar()" *ngIf="heroiEncontrado">
   <div>
     <label for="nome">Nome:</label>
     <input id="nome" formControlName="nome" type="text" required />
@@ -34,5 +42,5 @@
         </div>
     </div>
   </div>
-  <button type="submit" [disabled]="formHeroi.invalid">Cadastrar</button>
+  <button type="submit" [disabled]="formHeroi.invalid">Salvar</button>
 </form>

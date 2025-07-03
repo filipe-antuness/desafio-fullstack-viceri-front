@@ -1,3 +1,20 @@
 body {
   margin: 0;
 }
+
+.mat-elevation-z8 .mat-header-row,
+.mat-elevation-z8 .mat-header-cell,
+.mat-header-row,
+.mat-header-cell,
+table.mat-table thead tr.mat-header-row th.mat-header-cell {
+  background-color: #d31d1d !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-bottom: 2px solid #b71c1c;
+}
+
+.mat-table .mat-header-row .mat-header-cell {
+  background-color: #d31d1d !important;
+  color: #fff !important;
+}

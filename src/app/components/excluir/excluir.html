@@ -1,0 +1,9 @@
+<h2>Excluir Herói</h2>
+
+<form [formGroup]="formExcluir" (ngSubmit)="onSubmit()">
+    <div>
+        <label for="id">Digite o ID do Herói que deseja excluir:</label>
+        <input id="id" formControlName="id" type="number" required />
+        <button type="submit" [disabled]="formExcluir.invalid">Excluir</button>
+    </div>
+  </form>

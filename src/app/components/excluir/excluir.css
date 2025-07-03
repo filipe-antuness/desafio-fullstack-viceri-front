@@ -1,0 +1,49 @@
+/* Container do formulário */
+form > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* Estilo do input */
+input[type="number"] {
+  padding: 8px 12px;
+  border: 1.5px solid #d31d1d;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input[type="number"]:focus {
+  border-color: #a31515;
+}
+
+/* Estilo do botão */
+button[type="submit"] {
+  background: #d31d1d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover:enabled {
+  background: #a31515;
+}
+
+button[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #d31d1d;
+}
