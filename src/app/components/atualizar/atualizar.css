@@ -12,7 +12,7 @@
   min-width: 0;
   max-width: 100%;
   padding: 8px 12px;
-  border: 1.5px solid #d31d1d;
+  border: 1.5px solid #d31d1de3;
   border-radius: 6px;
   font-size: 1em;
   outline: none;
@@ -25,7 +25,7 @@
 
 /* Estilo do botão */
 .buscar button[type="submit"] {
-  background: #d31d1d;
+  background: #d31d1de3;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -66,13 +66,13 @@
 h2 {
   text-align: center;
   margin-bottom: 18px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }
 
 .atualizar label {
   font-weight: 500;
   margin-bottom: 6px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }
 
 .atualizar input[type="text"],
@@ -87,12 +87,12 @@ input[type="number"] {
 }
 
 .atualizar input:focus {
-  border-color: #d31d1d;
+  border-color: #d31d1de3;
   outline: none;
 }
 
 .atualizar button[type="submit"] {
-  background: #d31d1d;
+  background: #d31d1de3;
   color: #fff;
   border: none;
   border-radius: 6px;

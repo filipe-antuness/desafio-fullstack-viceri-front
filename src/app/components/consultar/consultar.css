@@ -9,7 +9,7 @@ form > div {
 /* Estilo do input */
 input[type="number"] {
   padding: 8px 12px;
-  border: 1.5px solid #d31d1d;
+  border: 1.5px solid #d31d1de3;
   border-radius: 6px;
   font-size: 1em;
   outline: none;
@@ -22,7 +22,7 @@ input[type="number"]:focus {
 
 /* Estilo do botão */
 button[type="submit"] {
-  background: #d31d1d;
+  background: #d31d1de3;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -45,5 +45,5 @@ button[disabled] {
 h2 {
   text-align: center;
   margin-bottom: 18px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }

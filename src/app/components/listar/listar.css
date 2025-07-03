@@ -10,23 +10,23 @@ table {
 /* Header da tabela */
 ::ng-deep .mat-table thead .mat-header-row,
 ::ng-deep .mat-table thead .mat-header-cell {
-  background-color: #d31d1d !important;
+  background-color: #d31d1de3 !important;
   color: #fff !important;
   font-weight: bold;
   font-size: 1.1em;
-  border-bottom: 2px solid #b71c1c;
+  border-bottom: 2px solid #d31d1de3;
 }
 
 ::ng-deep .mat-header-cell {
-  background-color: #d31d1d !important;
+  background-color: #d31d1de3 !important;
   color: #fff !important;
   font-weight: bold;
   font-size: 1.1em;
-  border-bottom: 2px solid #b71c1c;
+  border-bottom: 2px solid #d31d1de3;
 }
 
 ::ng-deep .mat-table .mat-header-row .mat-header-cell {
-  background-color: #d31d1d !important;
+  background-color: #d31d1de3 !important;
   color: #fff !important;
 }
 
@@ -51,11 +51,11 @@ table {
 
 /* Borda inferior nas células do header */
 .mat-header-cell {
-  border-bottom: 2px solid #b71c1c;
+  border-bottom: 2px solid #d31d1de3;
 }
 
 h2 {
   text-align: center;
   margin-bottom: 18px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }

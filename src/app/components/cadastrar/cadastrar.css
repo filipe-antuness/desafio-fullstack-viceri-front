@@ -19,13 +19,13 @@ form div {
 h2 {
   text-align: center;
   margin-bottom: 18px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }
 
 label {
   font-weight: 500;
   margin-bottom: 6px;
-  color: #d31d1d;
+  color: #d31d1de3;
 }
 
 input[type="text"],
@@ -40,12 +40,12 @@ input[type="number"] {
 }
 
 input:focus {
-  border-color: #d31d1d;
+  border-color: #d31d1de3;
   outline: none;
 }
 
 button[type="submit"] {
-  background: #d31d1d;
+  background: #d31d1de3;
   color: #fff;
   border: none;
   border-radius: 6px;
